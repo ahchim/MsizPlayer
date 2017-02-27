@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_album"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="@string/menu_album" />
+        <item
+            android:id="@+id/nav_artist"
+            android:icon="@android:drawable/ic_menu_my_calendar"
+            android:title="@string/menu_artist" />
+        <item
+            android:id="@+id/nav_folder"
+            android:icon="@android:drawable/ic_menu_set_as"
+            android:title="@string/menu_folder" />
+        <item
+            android:id="@+id/nav_genre"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="@string/menu_genre" />
+        <item
+            android:id="@+id/nav_music"
+            android:icon="@android:drawable/ic_menu_slideshow"
+            android:title="@string/menu_music" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_mylist"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/action_mylist" />
+            <item
+                android:id="@+id/nav_search"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/action_search" />
+        </menu>
+    </item>
+
+</menu>

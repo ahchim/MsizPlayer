@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SimpleMusicPlayer</string>
+
+    <string name="navigation_drawer_open">내비게이션 그리기 열기</string>
+    <string name="navigation_drawer_close">내비게이션 그리기 닫기</string>
+
+    <string name="action_settings">설정</string>
+    <string name="action_mylist">나의 플레이리스트</string>
+    <string name="action_search">검색</string>
+
+    <string name="menu_album">앨범</string>
+    <string name="menu_artist">아티스트</string>
+    <string name="menu_folder">폴더</string>
+    <string name="menu_genre">장르</string>
+    <string name="menu_music">음악</string>
+</resources>

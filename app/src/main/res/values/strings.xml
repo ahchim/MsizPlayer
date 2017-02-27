@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SimpleMusicPlayer</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_mylist">My List</string>
+    <string name="action_search">Search</string>
+
+    <string name="menu_album">Album</string>
+    <string name="menu_artist">Artist</string>
+    <string name="menu_folder">Folder</string>
+    <string name="menu_genre">Genre</string>
+    <string name="menu_music">Music</string>
+</resources>

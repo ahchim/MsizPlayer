@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/cardView">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark">
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                app:srcCompat="@mipmap/icon_music"
+                android:id="@+id/imgView"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:text="Sample Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtTitle"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="6dp"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/imgView"/>
+
+            <TextView
+                android:text="Sample Artist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:id="@+id/txtArtist"
+                android:layout_below="@+id/txtTitle"
+                android:layout_alignLeft="@+id/txtTitle"
+                android:layout_alignStart="@+id/txtTitle"
+                android:layout_marginTop="4dp" />
+
+            <TextView
+                android:text="Folder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtFolder"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/txtArtist"
+                android:layout_alignLeft="@+id/txtArtist"
+                android:layout_alignStart="@+id/txtArtist" />
+
+            <TextView
+                android:text="0 Music"
+                android:textColor="@color/colorAccent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtMusicNum"
+                android:layout_alignBaseline="@+id/txtFolder"
+                android:layout_alignBottom="@+id/txtFolder"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="70dp"/>
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>
